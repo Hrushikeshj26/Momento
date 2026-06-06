@@ -1,6 +1,6 @@
 # 📱 Momento - Real-Time Social Media WebApp
 
-![Momento Banner](https://via.placeholder.com/1200x600?text=Momento+App+Screenshot+Here) 
+![Momento Banner](assets/demo.png) 
 *(Note: Upload an actual screenshot of your app in Dark Mode to your repo and replace this link)*
 
 **Note: This project is a personal portfolio piece demonstrating advanced frontend development skills.**
@@ -8,7 +8,7 @@
 
 **Momento** is a fully responsive, real-time social media web application. I built this MVP from scratch to demonstrate end-to-end frontend architecture, complex state management, and seamless Backend-as-a-Service (BaaS) integration.
 
-**🔗 [Live Demo on Vercel](#) | 📺 [Watch the Video Walkthrough on LinkedIn](#)**
+**🔗 [Live Demo on Vercel](#) | 📺 [Watch the Video Walkthrough on LinkedIn](https://www.linkedin.com/posts/hrushikeshj26_reactjs-tailwindcss-supabase-ugcPost-7469005036220530688-cKyO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFBc9GgB_rfvnPOrvHUlS3YkSRhfZO9c77A)**
 
 ---
 
