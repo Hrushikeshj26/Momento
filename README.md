@@ -1,7 +1,6 @@
 # 📱 Momento - Real-Time Social Media WebApp
 
-![Momento Banner](assets/demo.png) 
-*(Note: Upload an actual screenshot of your app in Dark Mode to your repo and replace this link)*
+![Momento Banner](public/demo.png) 
 
 **Note: This project is a personal portfolio piece demonstrating advanced frontend development skills.**
 
