@@ -1,16 +1,76 @@
-# React + Vite
+# 📱 Momento - Real-Time Social Media WebApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Momento Banner](https://via.placeholder.com/1200x600?text=Momento+App+Screenshot+Here) 
+*(Note: Upload an actual screenshot of your app in Dark Mode to your repo and replace this link)*
 
-Currently, two official plugins are available:
+**Note: This project is a personal portfolio piece demonstrating advanced frontend development skills.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+**Momento** is a fully responsive, real-time social media web application. I built this MVP from scratch to demonstrate end-to-end frontend architecture, complex state management, and seamless Backend-as-a-Service (BaaS) integration.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**🔗 [Live Demo on Vercel](#) | 📺 [Watch the Video Walkthrough on LinkedIn](#)**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Key Features
+
+*   **📱 Mobile-First & Responsive:** Conditional layout architecture featuring a full Sidebar for desktop users and a sleek, Glassmorphic Bottom Navigation bar for mobile users.
+*   **⚡ Real-Time Feed & Interactions:** Posts, Likes, and Comments update optimistically on the frontend and sync instantly using Supabase.
+*   **🔔 Live Notifications:** Utilizes Supabase Realtime subscriptions to instantly alert users when someone interacts with their posts, complete with dynamic unread badge counters.
+*   **🌓 Advanced Theming:** Custom Dark/Light mode implemented globally using React Context API.
+*   **🔒 Secure Authentication:** End-to-end user login/signup flow using Supabase Auth.
+*   **📸 Media Management:** Secure image uploads with file size validation, stored and served via Supabase Storage buckets.
+*   **🔍 Live Search:** Case-insensitive, real-time database querying in the navigation bar to discover and view public user profiles.
+*   **👤 Dynamic Profiles:** Reusable profile component that intelligently switches between "Personal Edit Mode" and "Public View Mode" based on URL parameters.
+*   **🧹 Data Integrity:** Users can safely delete their own posts, which triggers a clean cascade to remove associated images from storage, likes, and comments to prevent orphaned data.
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+*   **Frontend Library:** React.js (Vite)
+*   **Styling:** Tailwind CSS (utility-first, highly responsive design)
+*   **Routing:** React Router DOM v6
+*   **Backend & Database:** Supabase (PostgreSQL, Auth, Storage, Realtime)
+*   **Icons:** Lucide React
+
+### Why this stack?
+I chose **React** for its component-driven architecture, making the UI highly reusable. **Supabase** was selected over building a custom Node.js/MERN backend to act as a Serverless architecture. This allowed me to focus entirely on delivering a pixel-perfect, high-performance Frontend/Mobile experience while maintaining strict Row Level Security (RLS) for user data.
+
+---
+
+## ⚙️ Local Setup & Installation
+
+Want to run this project locally? Follow these steps:
+
+1. **Clone the repository:**
+   git clone [https://github.com/Hrushikeshj26/momento-app.git](https://github.com/Hrushikeshj26/momento-app.git)
+   cd momento-app
+Install dependencies:
+
+2. **Install dependencies:**
+   npm install
+   
+3. **Environment Variables:**
+Create a .env file in the root directory and add your Supabase credentials. (Never commit this file!)
+
+   Code snippet
+         VITE_SUPABASE_URL=your_supabase_project_url
+         VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+   
+4. **Start the development server:**
+   npm run dev
+
+---
+
+## 👨‍💻 About the Developer
+
+Built from scratch by **Hrushikesh Jadhav**. 
+
+I am a Frontend Developer specializing in React and modern UI/UX architecture. I build web applications that are fast, accessible, and visually engaging. I am actively looking for remote Frontend web development opportunities.
+
+*   **Portfolio:** [Portfolio](https://hrushij-dev.vercel.app/)
+*   **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/hrushikeshj26/)
+*   **GitHub:** [@Hrushikeshj26](https://github.com/Hrushikeshj26)
+
+---
